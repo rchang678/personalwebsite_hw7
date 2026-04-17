@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class = "pagetop">
+            <div>
+                <h1 id="greeting">Hi! This is an art gallery</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><h2><a href="index.html">Home</a></h2></li>
+                    <li><h2><a href="illo.html">Illustration</a></h2></li>
+                    <li><h2><a href="comic.html">Comics</a></h2></li>
+                    <li><h2><a href="other.html">Other</a></h2></li>
+                    <li><h2><a href="about.html" >About</a></h3></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+  
+    <div class="maintext">
+        <img id = "mainimage" src="images/birdbrainsoup.jpeg" alt="" width = 180>
+        <p id = 'main'> &emsp;&emsp; Hi again, I'm Rosalind! And although I'm a data science and math major, I like making art a lot! In fact, most of my hobbies are some form of art or craft.
+         A non-exhaustive list would be illustration (alongside comic-making), animation, pottery, bookbinding, crochet, stamp carving, sewing, and so on. 
+         And the list of hobbies that I want to pick up but haven't gotten the chance is just as long! 
+         So, this website is a small collection of images of various artistic creations by me. 
+         Despite the breadth of my artistic ambitions, a significant amount of it is drawings/digital art, since that is my first and most serious artistic hobby. </p>
+    
+    <p>
+        &emsp;&emsp;Much of my art is inspired by the great amount of fantasy novels that I read throughout my childhood, which has stayed constant throughout my life. 
+        Recently, I've also taken on more inspiration from the art nouveau design movement and medieval illumination. 
+        I would draw more science fiction, but my artistic strengths unfortunately do not yet lay in technical structures like technology or architecture. 
+        I don't have nearly as much time to draw as I used to, now that I'm in college, but I'm always trying to fit it in somewhere. 
+        I hope you enjoy looking at my art!  </p></div>
+
+        <button id = 'navigationButton' class="center" style="width: 200px; height: 50px; background-color: #0faa93; color: #F5F2E6; font-family: Mabook; font-size: 20px; border: none; border-radius: 12px;">VIEW ART</button>
+    <script>
+        const navigationButton = document.getElementById('navigationButton')
+        navigationButton.addEventListener('click', function(){
+            window.location.href = 'illo.html';
+        }
+
+        )
+    </script>
+    
+
+<p class= "center" style = "text-align: center; color: rgb(94, 121, 121);">Contact: chang.ros@northeastern.edu</p>
+    
+</body>
+</html>
