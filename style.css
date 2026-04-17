@@ -1,0 +1,96 @@
+body {
+  background-color:#fff;
+  color:#333232;
+  font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size:1rem;
+  font-weight:normal;
+  line-height:1.5;
+  margin: 0;
+
+}
+
+@font-face {
+  font-family: almondMocca;
+  src: url(almondMocca.otf);
+}
+
+@font-face {
+  font-family: Mabook;
+  src: url(Mabook.otf);
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: Mabook;
+  text-align: center
+}
+
+h1 {
+  font-size:4vw;
+  margin: 0;
+  padding: 30px 35px 0px;
+  color: #F5F2E6;
+  font-weight: normal;
+
+}
+
+
+h2 {
+    font-size: 1.5vw;
+}
+
+a {
+  color: #1deacc
+}
+
+nav {
+  justify-items: center;
+  display: grid;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  
+}
+
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 0px 40px;
+
+}
+
+.maintext {
+  padding: 20px 25vw;
+    line-height:1.7;
+
+  
+}
+
+.pagetop {
+    background-color: #0faa93;
+    margin: 0;
+}
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.highlight {
+    color: #F5F2E6;
+}
+
+img {
+    margin: 20px;
+    float: left;
+}
+
+#mainimage {
+    float: left;
+    margin: 30px 10px 10px 10px;
+}
